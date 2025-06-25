@@ -1,0 +1,10 @@
+.box-red {
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 34px;
+}
+
+.box-green {
+    background-color: green;
+}
