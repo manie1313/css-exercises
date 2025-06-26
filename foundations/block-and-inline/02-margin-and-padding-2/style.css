@@ -4,13 +4,20 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: fit-content;
+  /* height: auto; */
   background: #fff;
-  margin: 16px auto;
+  margin: 30px auto;
+  display: block;
+  align-items: center;
+  padding: 15px 5px 5px;
+  /* vertical-align: top; */
+
 }
 
 .title {
   background: #e3f4ff;
+  padding: 15px 5px 5px;
 }
 
 .content {
@@ -19,9 +26,12 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  display: block;
+  margin: 20px auto;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: inline-block;
 }
